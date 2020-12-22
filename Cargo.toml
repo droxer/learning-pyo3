@@ -1,0 +1,13 @@
+[package]
+name = "learning-pyo3"
+version = "0.1.0"
+authors = ["Fei He <droxer.he@gmail.com>"]
+edition = "2018"
+
+[dependencies.pyo3]
+version = "0.12.4"
+features = ["extension-module"]
+
+[lib]
+name = "learning_pyo3"
+crate-type = ["cdylib"]
