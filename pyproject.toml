@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "learning-pyo3"
+version = "0.1.0"
+description = ""
+authors = ["Fei He <droxer.he@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.6.9"
+setuptools-rust = "0.11.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.1"
+pytest-benchmark = "3.2.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
